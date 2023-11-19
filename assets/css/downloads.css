@@ -1,0 +1,57 @@
+@charset 'utf-8';
+
+.full-client:after, .update-patch:after,
+.legend-area:after,
+.directx-download:after ,
+.driver-downlaod:after ,.driver-downlaod .driver:after,
+.directx-download .btn li a:after,
+.mirror-sites ul:after { clear:both; display:block; height:0; font-size:0; line-height:0; content:'.'; visibility:hidden; }
+
+h4.bul { margin:20px 0 7px; padding-left:22px; background:url('../images/common/bul_title.png') no-repeat left 7px; font-size:20px; font-family: Arial, Helvetica, sans-serif; color:#80511d; line-height:1.2; zoom:1; }
+.dot-list { margin-bottom:10px; }
+.dot-list li { zoom:1; padding-left:22px; background:url('../images/common/bul_gray.gif') no-repeat 15px 6px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color:#ccc; line-height:16px; }
+.box-outer { background-color:#796a56; border:0px solid #a72222; padding:10px 10px 0px 10px; }
+.box-inner { background-color:#a0a0a0; }
+.full-client, .update-patch { zoom:1; border-bottom:10px solid #796a56; background-color:#F7F7F7; }
+.full-client dl ,.update-patch dl { float:left; _display:inline; margin:10px -397px 12px 21px; }
+.full-client dl dt ,.update-patch dl dt { margin-bottom:4px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:22px; color:#444444; line-height:26px; }
+.full-client dl dd ,.update-patch dl dd { font-family:Trebuchet MS; font-size:11px; color:#595959; line-height:16px; }
+.full-client dl dd em ,.update-patch dl dd em { color:#7f7f7f; }
+.full-client .btn-download , .update-patch .btn-download { display:block; float:right; _display:inline; width:394px; height:88px; margin:6px; background:url('../images/download/bg_download.jpg') no-repeat left top; text-align:center; }
+.full-client .btn-download a , .update-patch .btn-download a { display:block; width:394px; height:75px; padding-top:13px; font-size:24px; font-family: 'Times New Roman', Times, serif; font-weight:normal; color:#fff1e1; line-height:1.2; }
+.full-client .btn-download a em , .update-patch .btn-download a em { display:block; margin-top:-6px; font-size:32px; color:#dcb284; }
+.full-client .btn-download a:link, .full-client .btn-download a:visted,.full-client .btn-download a:active,
+.full-client .btn-download a:link em, .full-client .btn-download a:visted em,.full-client .btn-download a:active em,
+.full-client .btn-download a:hover, .full-client .btn-download a:hover em,
+.update-patch .btn-download a:link, .update-patch .btn-download a:visited, .update-patch .btn-download a:active { color:#fff1e1; }
+.update-patch .btn-download span {font-size:13px; }
+.update-patch .btn-download a:link em, .update-patch .btn-download a:visited em, .update-patch .btn-download a:active em { color:#dcb284; }
+.update-patch .btn-download a:hover, .update-patch .btn-download a:hover em { color:#fff5e8; }
+.update-patch .btn-download { background-position:left -88px; }
+.update-patch .btn-download02 { background-position:left -176px; }
+.update-patch .btn-download img { vertical-align:middle; margin:-5px 10px 0 0 ; }
+.downloading-area { border:1px solid #313131; border-top:1px solid #313131; background-color:#313131; padding:10px;  }
+.downloading-area .loading { width:608px; min-height:93px; _height:93px; background-color:#313131; }
+
+/* legend-download */
+.legend-area { width:608px; zoom:1; }
+.legend-download { float:left; _display:inline; text-align:center; }
+.legend-download .btn-download { display:block; width:296px; height:68px; margin-bottom:5px; background:url('../images/download/btn_download.gif') no-repeat left top; text-align:center; }
+.legend-download .btn-download a { display:block; width:296px; height:58px; padding-top:10px; font-size:20px; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight:bold; color:#fff1e1; line-height:1.2; }
+.legend-download .btn-download a em { display:block; margin-top:-6px; font-size:26px; }
+.legend-download p {font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:11px; color:#595959; line-height:16px; }
+.legend-download p em { color:#7f7f7f; }
+.full-legend { margin:6px 4px 6px 6px;}
+.update-legend { margin:6px 6px 6px 0;}
+
+/* bbs-list */
+.bbs-list { font-family:Trebuchet MS; }
+.bbs-list table { table-layout:fixed; border-top:1px solid #ddd; }
+.bbs-list table thead th { color:#9e6a48; }
+.bbs-list table thead .first { border-left:none; }
+.bbs-list table tbody th { border-left:none; font-size:11px; font-weight:normal; color:#7f7f7f; }
+.bbs-list table th { padding:9px 0; background-color:#ececec; border-left:1px solid #ddd; border-bottom:1px solid #ddd; }
+.bbs-list table td { padding:9px 0; border-left:1px solid #ddd; border-bottom:1px solid #ddd;font-size:11px; text-align:center; color:#5a5a5a; background-color: #9b9b9b; }
+
+/* .download-area */
+.download-area { width:610px; min-height:100px; _height:100px; margin-top:-30px; padding:20px 20px; zoom:1; background: #292929; }

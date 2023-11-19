@@ -1,0 +1,33 @@
+@charset 'utf-8';
+
+.page-area {
+	width:610px;
+	min-height:100px;
+	_height:100px;
+	color: #b4adad;
+	margin-top:-30px;
+	padding:20px 20px;
+	zoom:1;
+	background: #292929;
+	font-size: 11px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.page-area .page-content { min-height: 200px; }
+.page-area .page-content em { font-style: italic; }
+.page-area .page-content h5 { font-size: 12px; margin-bottom: 5px; }
+.page-area .page-content h4 { font-size: 15px; margin-bottom: 5px; }
+.page-area .page-content h3 { font-size: 20px; margin-bottom: 5px; }
+.page-area .page-content h2 { font-size: 25px; margin-bottom: 5px; }
+.page-area .page-content h1 { font-size: 30px; margin-bottom: 5px; }
+.page-area .page-content ol { margin-left: 16px; margin-bottom: 5px; }
+.page-area .page-content ol li { line-height: 1.3em; list-style: circle; }
+.page-area .page-content ul { margin-left: 16px; margin-bottom: 5px; }
+.page-area .page-content ul li { line-height: 1.3em; list-style: disc; }
+.page-area .page-content hr { display:block; border: 0; border-bottom: 1px dotted#4b4b4b; }
+.page-area .page-content p { line-height: 1.5em; margin-bottom: 5px; font-size: 11px; }
+.page-area .page-content blockquote {
+	position: absolute;
+	margin: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}

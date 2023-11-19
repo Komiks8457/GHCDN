@@ -1,0 +1,121 @@
+@charset 'utf-8';
+
+/* .account-area */
+.account-area { width:610px; min-height:100px; _height:100px; margin-top:-30px; padding:20px 20px; zoom:1; background: #292929; }
+.account-area em { margin-left:2px; font-size:14px; font-weight:bold; line-height:18px; color:#a52c32; }
+.account-area h4 { min-height:357px; _height:357px; font-family:Times New Roman; font-size:30px; font-weight:normal; line-height:32px; color:#603621; }
+.account-area p { margin-top:17px; font-family:Trebuchet MS; line-height:18px; color:#3f3f3f; }
+.account-area .desc { color:#603621; }
+.account-area .stress { color:#252525; font-weight:bold; }
+.account-area h5 { margin:32px 0 -6px; padding-left:17px; background:url('../images/gameinfo/bul_gameinfo.gif') no-repeat left 50%; font-family: 'Times New Roman', Times, serif; font-size:18px; font-weight:normal; line-height:20px; color:#252525; }
+/*.account-area ul {}*/
+.account-area ul li { margin-top:20px; }
+.account-area ul h6 { font-size:12px; font-weight:normal; color:#3f3f3f; }
+.account-area ul p { width:599px; margin-top:4px; padding-left:11px; }
+.account-area ul em { display:block; font-size:12px; font-weight:normal; color:#603621; }
+
+#account-form input {
+    width:220px;
+    height:14px;
+    padding:7px 5px 6px;
+    border:none;
+    color:#fff;
+    font-size:12px;
+    line-height:1.2;
+    text-align: center;
+    background:url('../images/common/bg_val3.gif') no-repeat left top;
+}
+
+#account-form table td {
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+
+#account-form table tr:last-child>td {
+    vertical-align: middle;
+    padding-bottom: 0px;
+}
+
+#account-form .submit-btn {
+    cursor: pointer;
+    color: #fff;
+    border: 0px;
+    font-size: 12px;
+    height: 32px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../images/common/button.jpg') #fff;
+}
+
+#account-form .submit-btn:active {
+    transform: translateY(1px) translateX(1px);
+}
+
+#account-form .orange {
+    background: url('../images/common/button2.gif');
+}
+
+#account-form .blue {
+    background: url('../images/common/button3.gif');
+}
+
+#account-form .white {
+    background: url('../images/common/button4.gif');
+}
+
+#account-form .green {
+    background: url('../images/common/button5.gif');
+}
+
+#account-form .black {
+    background: url('../images/common/button6.gif');
+}
+
+#account-form .grey {
+    color:#999898;
+    cursor: default;
+    text-shadow: 1px 1px #e7e7e7;
+    background: url('../images/common/button7.gif');
+}
+
+#account-form input[type="checkbox"] {
+    width: 15px;
+    margin: 5px -2px 0 0;
+}
+
+#account-form input:read-only {
+    color:#616161;
+}
+
+#account-form .message {
+    font-style: italic;
+    text-align: left;
+    color: #999999;
+    padding-left: 5px;
+}
+
+#account-form .titlebar {
+    height: 15px;
+    width:100%;
+    background: #453c32b6;
+    padding: 5px 0;
+    text-align: center;
+    color:azure;
+    font-weight: bold;
+    font-size:15px;
+}
+
+/* .account-area */
+.linkaccount-area { width:610px; min-height:100px; _height:100px; margin-top:-30px; padding:20px 20px; zoom:1; background: #292929; }
+.linkaccount-area em { margin-left:2px; font-size:14px; font-weight:bold; line-height:18px; color:#a52c32; }
+.linkaccount-area h4 { min-height:357px; _height:357px; font-family:Times New Roman; font-size:30px; font-weight:normal; line-height:32px; color:#603621; }
+.linkaccount-area p { margin-top:17px; font-family:Trebuchet MS; line-height:18px; color:#3f3f3f; }
+.linkaccount-area .desc { color:#603621; }
+.linkaccount-area .stress { color:#252525; font-weight:bold; }
+.linkaccount-area h5 { margin:32px 0 -6px; padding-left:17px; background:url('../images/gameinfo/bul_gameinfo.gif') no-repeat left 50%; font-family: 'Times New Roman', Times, serif; font-size:18px; font-weight:normal; line-height:20px; color:#252525; }
+/*.account-area ul {}*/
+.linkaccount-area ul li { margin-top:20px; }
+.linkaccount-area ul h6 { font-size:12px; font-weight:normal; color:#3f3f3f; }
+.linkaccount-area ul p { width:599px; margin-top:4px; padding-left:11px; }
+.linkaccount-area ul em { display:block; font-size:12px; font-weight:normal; color:#603621; }

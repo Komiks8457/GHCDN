@@ -1,0 +1,125 @@
+@charset 'utf-8';
+
+/* .registration-area */
+.registration-area { width:610px; min-height:100px; _height:100px; margin-top:-30px; padding:20px 20px; zoom:1; background: url('../images/common/page_content_register.png') no-repeat #292929; }
+.registration-area em { margin-left:2px; font-size:14px; font-weight:bold; line-height:18px; color:#a52c32; }
+.registration-area h4 { min-height:357px; _height:357px; font-family:Times New Roman; font-size:30px; font-weight:normal; line-height:32px; color:#603621; }
+.registration-area p { margin-top:17px; font-family:Trebuchet MS; line-height:18px; color:#3f3f3f; }
+.registration-area .desc { color:#603621; }
+.registration-area .stress { color:#252525; font-weight:bold; }
+.registration-area h5 { margin:32px 0 -6px; padding-left:17px; background:url('../images/gameinfo/bul_gameinfo.gif') no-repeat left 50%; font-family:Times New Roman; font-size:18px; font-weight:normal; line-height:20px; color:#252525; }
+/*.registration-area ul {}*/
+.registration-area ul li { margin-top:20px; }
+.registration-area ul h6 { font-size:12px; font-weight:normal; color:#3f3f3f; }
+.registration-area ul p { width:599px; margin-top:4px; padding-left:11px; }
+.registration-area ul em { display:block; font-size:12px; font-weight:normal; color:#603621; }
+
+#registration-form input {
+    width:220px;
+    height:14px;
+    padding:7px 5px 6px;
+    border:none;
+    color:#fff;
+    font-size:12px;
+    line-height:1.2;
+    text-align: center;
+    background:url('../images/common/bg_val3.gif') no-repeat left top;
+}
+
+#registration-form table td {
+    padding: 0 0 20px;
+}
+
+#registration-form .submit-btn {
+    cursor: pointer;
+    color: #fff;
+    border: 0px;
+    font-size: 12px;
+    height: 32px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('../images/common/button.jpg') #fff;
+}
+
+#registration-form .submit-btn:active {
+    transform: translateY(1px) translateX(1px);
+}
+
+#registration-form .orange {
+    background: url('../images/common/button2.gif');
+}
+
+#registration-form .blue {
+    background: url('../images/common/button3.gif');
+}
+
+#registration-form .white {
+    background: url('../images/common/button4.gif');
+}
+
+#registration-form .green {
+    background: url('../images/common/button5.gif');
+}
+
+#registration-form .black {
+    background: url('../images/common/button6.gif');
+}
+
+#registration-form .grey {
+    color:#999898;
+    cursor: default;
+    text-shadow: 1px 1px #e7e7e7;
+    background: url('../images/common/button7.gif');
+}
+
+#registration-form button[disabled], button:disabled {
+    color:#494949;
+    cursor: not-allowed;
+    text-shadow: 0.5px 1px #b4b4b4;
+    background: url('../images/common/button7.gif');
+    transform: none;
+}
+
+#registration-form .tos p { margin: 5px; color:#707070 }
+
+#registration-form .tos {
+    color: #b4b4b4;
+    background: #333333;
+    border: 1px solid #4e4e4e;
+    resize: none;
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    opacity: 80%;
+}
+
+#registration-form input[type="checkbox"] {
+    width: 15px;
+    margin: 5px -2px 0 0;
+}
+
+#registration-form label {
+    position: relative;
+    left:6px;
+    top:-3px;
+    font-weight: bold;
+}
+
+#registration-form .message {
+    font-style: italic;
+    text-align: left;
+    color:rgb(253, 0, 0);
+    padding-left: 5px;
+}
+
+#registration-form .titlebar {
+    height: 15px;
+    width:100%;
+    background: #453c32b6;
+    padding: 5px 0;
+    text-align: center;
+    color:azure;
+    font-weight: bold;
+    font-size:15px;
+}

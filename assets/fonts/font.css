@@ -1,0 +1,36 @@
+/***  Brightness  ***/
+@font-face {
+	font-family: 'Brightness';
+	src: local('☺'), url('Brightness.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/***  Brightness Book  ***/
+@font-face {
+	font-family: 'Brightness Book';
+	src: local('☺'), url('BrightnessBook.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/***  Brightness Inverted  ***/
+@font-face {
+	font-family: 'Brightness Inverted';
+	src: local('☺'), url('BrightnessInverted.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/***  Wende  ***/
+@font-face {
+	font-family: 'Wendel';
+	src: local('☺'), url('Wendell_v1.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+/***  Khodijah  ***/
+@font-face {
+	font-family: 'Khodijah';
+	src: url('Khodijah-Free.otf');
+	src: local('☺'), url('Khodijah-Free.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

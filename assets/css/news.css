@@ -1,0 +1,20 @@
+@charset 'utf-8';
+
+.news-area { width:610px; min-height:100px; _height:100px; margin-top:-30px; padding:20px 20px; zoom:1; background: #292929; }
+.news-area p { line-height: 1.5; margin-bottom: 10px; font-size: 13px; font-family: Verdana, Geneva, Tahoma, sans-serif; }
+.news-area h3 { position:absolute; padding: 5px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: normal; }
+.news-area h2 { position:absolute; padding: 5px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: normal }
+.news-area h1 { position:absolute; padding: 5px; font-family: Georgia, 'Times New Roman', Times, serif; font-weight: normal }
+.news-area .postdate { text-align:right; color:#fff; font-weight:bold; }
+
+/* bbs-list */
+.bbs-list { font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+.bbs-list table { table-layout:fixed; border-top:1px solid #EBEBEB; background-color: #313131; }
+.bbs-list table thead th { color:#9e6a48; }
+.bbs-list table thead .first { border-left:none; }
+.bbs-list table tbody th { border-left:none; font-size:11px; font-weight:normal; color:#7f7f7f; }
+.bbs-list table th { padding:9px 0; background-color:#363636; border-left:1px solid #EBEBEB; border-bottom:1px solid #EBEBEB; }
+.bbs-list table td { background-color: #4b4444; padding:9px 0; border-left:1px solid #EBEBEB; border-bottom:1px solid #EBEBEB;font-size:11px; color:#5a5a5a; }
+.bbs-list .title { color:#7f7f7f; padding: 0 5px 0; text-align: left; }
+.bbs-list .date { color:#7f7f7f; text-align: center; }
+.bbs-list .content { background-color: #b4adad; color:#443f3f; padding: 5px; display: none; }
